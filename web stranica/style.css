@@ -1,0 +1,110 @@
+body {
+	background-image: url("ku.jpg");
+}
+.uvod {
+	background-color: #41c7f4;
+	opacity: 0.9;
+	border: solid 2px black;
+}
+.naslov {
+	font-size: 40px;
+	font-family: arial;
+	padding-left: 15px;
+	text-shadow: 2px 3px powderblue;
+	letter-spacing: 3px;
+
+}
+.ikona {
+	vertical-align: baseline;
+
+}
+.opis {
+	padding-left: 15px;
+}
+.topnav {
+	background-color: #41c7f4;
+	overflow: hidden;
+	border-radius: 8px;
+
+}
+.topnav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+.topnav a:hover {
+	background-color: black;
+	color: #41c7f4;
+
+}
+.topnav a:active {
+	background-color: white;
+	color: #41c7f4;
+}
+
+.search-bar {
+	float: right;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+.desno {
+	float: right;
+	border-radius: 8px;
+}
+
+
+.omeni {
+	border-radius: 8px;
+	float: right;
+	margin-top: 20px;
+	background-color: white;
+	padding: 15px;
+}
+
+
+.social {
+	border-radius: 8x;
+	margin-top: 50px;
+	background-color: white;
+}
+.žaruljice {
+	position: absolute;
+	left: 95%;
+	top: 5px;
+}
+.tekstovi {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 5px;
+	justify-content: space-around;
+	padding: 20px;
+	float: left;
+	width: 950px;
+	height: 800px;
+	border-radius: 8px;
+	margin-left: 200px;
+	border-radius: 8px;
+}
+.grid1 {
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+
+}
+.grid2 {
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+.grid3 {
+	border-radius: 8px;
+    margin-left: ;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
